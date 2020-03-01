@@ -1,0 +1,194 @@
+/* Common Styles */
+
+.body {
+  margin: 0px;
+}
+
+.container {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  /* border: 2px solid black; */
+}
+
+.section_title {
+  padding: 2% 0%;
+}
+
+.section_title a {
+  color: orange;
+  text-decoration: none;
+}
+
+.section_title a:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  padding: 2%;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 50px 1px #cecece;
+  transition: 0.3s;
+}
+
+.card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 0px 1px #cecece;
+}
+
+button {
+  color: white;
+  margin-top: 20px;
+  padding: 5px 15px;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+}
+
+
+/* Navbar */
+
+.nav-link:hover {
+  transform: scale(0.9);
+  color: yellow;
+}
+
+.first_section {
+  background-image: url(images/ellipses.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 10%;
+}
+
+.carousel-inner {
+  background-image: url(images/best_products.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 6%;
+  border-radius: 15px;
+}
+
+.carousel-item {
+  padding: 20px 40px;
+}
+
+.carousel-indicators li {
+  background-color: grey;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: orange;
+}
+
+.categories {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#cat_hr {
+  width: 40px;
+  margin: 0px auto 20px auto;
+  padding: 5px 50px;
+  background-image: linear-gradient(90deg, #ffd280, orange);
+  border-radius: 20px;
+}
+
+.cat_bag {
+  margin: 10% 0%;
+  padding: 30% 10% 10% 10%;
+  text-align: center;
+  border: none;
+  border-radius: 0px 20px 0px 20px;
+  box-shadow: 2px 2px 50px 1px #cecece;
+  background: #ffffff;
+}
+
+.cat_beauty {
+  margin: 10% 0%;
+  padding: 30% 10% 10% 10%;
+  text-align: center;
+  border: none;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: 2px 2px 50px 1px #cecece;
+  background: #ffffff;
+}
+
+.cat_shoe {
+  margin: 10% 0%;
+  padding: 30% 10% 10% 10%;
+  text-align: center;
+  border: none;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: 2px 2px 50px 1px #cecece;
+  background: #ffffff;
+}
+
+.cat img {
+  width: 50%;
+  margin: 0px auto;
+  transition: 0.3s;
+}
+
+.cat_busket:hover img {
+  transform: scale(0.95);
+}
+
+iframe {
+  margin-bottom: 50px;
+}
+
+i.fa {
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #fff
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3295C3;
+  color: white;
+}
+
+.fa-instagram {
+  background: #D74D5C;
+  color: white;
+}
+
+.footer a {
+  color: black;
+  text text-decoration: none;
+}
+
+.footer p {
+  margin: 0px;
+}
+
+footer {
+  text-align: center;
+}
